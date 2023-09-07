@@ -1,0 +1,1 @@
+mfa train lab_wav_pairs pinyin.dict biaobei_output -j 32 --use_mp --single_speaker
