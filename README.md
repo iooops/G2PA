@@ -1,6 +1,10 @@
 
 # G2PA
 
+## Install Requirements
+
+`pip install requirements.txt`
+
 ## Train the Classifier
 
 #### 1. Get [Biaobei Dataset](https://www.data-baker.com/open_source.html)

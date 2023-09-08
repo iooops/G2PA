@@ -1,0 +1,11 @@
+pytorch
+pypinyin
+numpy
+torchaudio
+torchvision
+tqdm
+pypinyin_dict
+jieba
+transformers
+textgrids
+g2pM
