@@ -18,4 +18,6 @@
 
 ## Do Inference
 
-- Run `evaluate_g2p.ipynb` till 
+- `cd test`
+- Run `evaluate_g2p.ipynb` 
+- 
