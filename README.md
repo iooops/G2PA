@@ -26,6 +26,6 @@
 - `cd test`
 - Run **Prepare for G2PA**, the first block of *evaluate_g2p.ipynb*
 - Activate MFA env and `bash align.sh`
-- Run *aligned_pre.ipynb*
+- Deactivate MFA env and Run *aligned_pre.ipynb*
 - Run *corrector.ipynb*
 - Run **Evaluate**, the second block of *evaluate_g2p.ipynb*
