@@ -1,3 +1,4 @@
+
 # G2PA
 
 ## Train the Classifier
@@ -8,16 +9,19 @@
 
 - Run *pre.ipynb*
 - Activate [MFA env](https://montreal-forced-aligner.readthedocs.io/en/latest/installation.html)
-- Run `bash train_aligner.sh`
-- Run `bash align.sh`
+- `bash train_aligner.sh`
+- `bash align.sh`
 - Deactivate MFA env and run *aligned_pre.ipynb*
-- Run `python hubert_extractor.py`
-- Run `python resnet_trainer.py`
+- `python hubert_extractor.py`
+- `python resnet_trainer.py`
 - To evaluate, run *evaluate_trainer.ipynb*
 
 
 ## Do Inference
 
 - `cd test`
-- Run `evaluate_g2p.ipynb` 
-- 
+- Run **Prepare for G2PA**, the first block of *evaluate_g2p.ipynb*
+- Activate MFA env and `bash align.sh`
+- Run *aligned_pre.ipynb*
+- Run *corrector.ipynb*
+- Run **Evaluate**, the second block of *evaluate_g2p.ipynb*
