@@ -32,7 +32,7 @@ hubert_model = hubert_model.to('cuda')
 
 biaobei_py_list = json.loads(open('biaobei_py_list.json', "r").read())
 
-audio_py_pairs = [['lab_wav_pairs/' + p['file_name'] + '.wav', pc[0], pc[1], pc[2]] for p in biaobei_py_list[:8000] for pc in p['pinyin_clips']]
+audio_py_pairs = [['lab_wav_pairs/' + p['file_name'] + '.wav', pc[0], pc[1], pc[2]] for p in biaobei_py_list for pc in p['pinyin_clips']]
 # random.shuffle(audio_py_pairs)
 
 py_count = {}
